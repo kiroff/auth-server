@@ -20,10 +20,10 @@
         </developer>
     </developers>
     <scm>
-        <connection>scm:git:ssh://github.com:kiroff/user-service.git</connection>
-        <developerConnection>scm:git:ssh://github.com:kiroff/user-service.git</developerConnection>
+        <connection>scm:git:ssh://github.com:kiroff/auth-server.git</connection>
+        <developerConnection>scm:git:ssh://github.com:kiroff/auth-server.git</developerConnection>
         <tag/>
-        <url>https://github.com/kiroff/user-service</url>
+        <url>https://github.com/kiroff/auth-server</url>
     </scm>
     <properties>
         <java.version>25</java.version>

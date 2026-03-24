@@ -6,7 +6,7 @@
     <groupId>org.kiroff</groupId>
     <artifactId>auth-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>auth-server</name>
+    <name>Authorization Server</name>
     <description>Authorization Server</description>
     <url/>
     <licenses>
@@ -28,7 +28,7 @@
     <properties>
         <java.version>25</java.version>
         <java.args>--sun-misc-unsafe-memory-access=allow --enable-native-access=ALL-UNNAMED -Dnet.bytebuddy.experimental=true</java.args>
-        <spring-boot.version>4.0.3</spring-boot.version>
+        <spring-boot.version>4.0.4</spring-boot.version>
         <spring-cloud.version>2025.1.1</spring-cloud.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -45,15 +45,15 @@
         <keycloak.version>26.5.4</keycloak.version>
     </properties>
     <dependencyManagement>
-    <dependencies>
-    <dependency>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-dependencies</artifactId>
-        <version>${spring-boot.version}</version>
-        <type>pom</type>
-        <scope>import</scope>
-    </dependency>
-    </dependencies>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
     </dependencyManagement>
     <dependencies>
         <dependency>
